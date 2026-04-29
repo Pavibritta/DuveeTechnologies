@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center bg-white shadow px-6 py-3 fixed w-full max-w-5xl z-50">
+    <div className="flex justify-between items-center bg-white shadow px-6 py-3 fixed w-full max-w-7xl">
       {/* LEFT SIDE */}
       <h1 className="text-lg font-semibold text-primary">
         {role === "admin" ? "Admin Panel" : "Employee Panel"}

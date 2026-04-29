@@ -77,7 +77,7 @@ const Sidebar = () => {
 
       {/* SIDEBAR */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-primary text-white p-4 transform transition duration-300 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-primary text-white p-4 transform transition duration-300 z-50 ${
           open ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0`}
       >
